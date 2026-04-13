@@ -1,33 +1,59 @@
 # Zepto Inventory Data Analysis  
 
-SQL-based analysis of e-commerce inventory data to derive insights on pricing, stock, and revenue.
+SQL-based analysis of e-commerce inventory data to derive insights on pricing, stock availability, and revenue patterns.
 
-## Project Overview
-This project analyzes Zepto’s e-commerce inventory data to understand product availability, pricing strategies, and stock risks.
+---
 
-## Tools & Technologies
-- PostgreSQL
-- SQL
-- pgAdmin
+## 📌 Project Overview
+This project analyzes Zepto’s inventory dataset to understand product availability, pricing strategies, and potential stock risks in a quick-commerce environment.
 
-## Dataset
-Product-level inventory data including category, price, discount, and stock status.
+---
 
-## Key Analysis
-- Product category insights
-- Stock availability analysis
-- Discount impact analysis
-- Revenue estimation
+## 🛠️ Tools & Technologies
+- PostgreSQL  
+- SQL  
+- pgAdmin  
 
-## Key Insights
-- High-priced products are often out of stock
-- Discounts on low-priced products reduce margins
-- Inventory concentration increases risk
+---
 
-## Learning Outcomes
-- Real-world SQL query writing
-- Data cleaning and analysis
-- Business insight generation
+## 📊 Dataset
+The dataset contains product-level inventory data including:
+- Category  
+- Price (MRP & discounted price)  
+- Discount percentage  
+- Available quantity  
+- Stock status  
 
-## Outcome
-This project improved my SQL and data analysis skills in an e-commerce context.
+---
+
+## 🔍 Key Analysis Performed
+- Product category and pricing analysis  
+- Stock availability and out-of-stock detection  
+- Discount impact evaluation  
+- Revenue estimation by category  
+
+---
+
+## 💡 Key Insights
+- High-priced products are frequently out of stock, leading to potential revenue loss  
+- Heavy discounts on low-priced products may reduce profit margins  
+- Inventory concentration in limited products increases operational risk  
+
+---
+
+## 📁 Project Structure
+- `zepto_analysis.sql` → SQL queries for analysis  
+- `zepto_v2.csv` → Dataset used  
+- `project_overview.pdf` → Detailed explanation  
+
+---
+
+## 🎯 Learning Outcomes
+- Hands-on experience with real-world SQL queries  
+- Data cleaning and transformation  
+- Ability to derive business insights from raw data  
+
+---
+
+## 🚀 Outcome
+This project strengthened my SQL and data analysis skills and improved my understanding of e-commerce inventory systems.
