@@ -1,4 +1,6 @@
-# Zepto Inventory Data Analysis
+# Zepto Inventory Data Analysis  
+
+SQL-based analysis of e-commerce inventory data to derive insights on pricing, stock, and revenue.
 
 ## Project Overview
 This project analyzes Zepto’s e-commerce inventory data to understand product availability, pricing strategies, and stock risks.
